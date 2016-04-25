@@ -1,0 +1,12 @@
+project/target/
+project/project/
+target/
+out/
+data/
+.idea/
+.gradle/
+build/
+*.iml
+
+
+

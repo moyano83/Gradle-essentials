@@ -1,0 +1,17 @@
+plugins {
+    id "org.akhikhl.gretty" version "1.2.4"
+    id "war"
+}
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    testCompile 'junit:junit:4.12'
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+}
+
+gretty {
+    servletContainer = 'tomcat8'
+    port = 8080
+}
